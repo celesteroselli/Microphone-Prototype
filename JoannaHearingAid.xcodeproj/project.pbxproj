@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1EAE522B39C09000EDA0A8 /* JoannaHearingAidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAE512B39C09000EDA0A8 /* JoannaHearingAidApp.swift */; };
+		5B1EAE542B39C09000EDA0A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAE532B39C09000EDA0A8 /* ContentView.swift */; };
+		5B1EAE562B39C09100EDA0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1EAE552B39C09100EDA0A8 /* Assets.xcassets */; };
+		5B1EAE592B39C09100EDA0A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1EAE582B39C09100EDA0A8 /* Preview Assets.xcassets */; };
+		5B1EAE632B39C09100EDA0A8 /* JoannaHearingAidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAE622B39C09100EDA0A8 /* JoannaHearingAidTests.swift */; };
+		5B1EAE6D2B39C09100EDA0A8 /* JoannaHearingAidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAE6C2B39C09100EDA0A8 /* JoannaHearingAidUITests.swift */; };
+		5B1EAE6F2B39C09100EDA0A8 /* JoannaHearingAidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EAE6E2B39C09100EDA0A8 /* JoannaHearingAidUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B1EAE5F2B39C09100EDA0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B1EAE462B39C09000EDA0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1EAE4D2B39C09000EDA0A8;
+			remoteInfo = JoannaHearingAid;
+		};
+		5B1EAE692B39C09100EDA0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B1EAE462B39C09000EDA0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1EAE4D2B39C09000EDA0A8;
+			remoteInfo = JoannaHearingAid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B1EAE4E2B39C09000EDA0A8 /* JoannaHearingAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoannaHearingAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1EAE512B39C09000EDA0A8 /* JoannaHearingAidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoannaHearingAidApp.swift; sourceTree = "<group>"; };
+		5B1EAE532B39C09000EDA0A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B1EAE552B39C09100EDA0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B1EAE582B39C09100EDA0A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B1EAE5E2B39C09100EDA0A8 /* JoannaHearingAidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoannaHearingAidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1EAE622B39C09100EDA0A8 /* JoannaHearingAidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoannaHearingAidTests.swift; sourceTree = "<group>"; };
+		5B1EAE682B39C09100EDA0A8 /* JoannaHearingAidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoannaHearingAidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1EAE6C2B39C09100EDA0A8 /* JoannaHearingAidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoannaHearingAidUITests.swift; sourceTree = "<group>"; };
+		5B1EAE6E2B39C09100EDA0A8 /* JoannaHearingAidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoannaHearingAidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1EAE4B2B39C09000EDA0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1EAE5B2B39C09100EDA0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1EAE652B39C09100EDA0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1EAE452B39C09000EDA0A8 = {
+			isa = PBXGroup;
+			children = (
+				5B1EAE502B39C09000EDA0A8 /* JoannaHearingAid */,
+				5B1EAE612B39C09100EDA0A8 /* JoannaHearingAidTests */,
+				5B1EAE6B2B39C09100EDA0A8 /* JoannaHearingAidUITests */,
+				5B1EAE4F2B39C09000EDA0A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1EAE4F2B39C09000EDA0A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1EAE4E2B39C09000EDA0A8 /* JoannaHearingAid.app */,
+				5B1EAE5E2B39C09100EDA0A8 /* JoannaHearingAidTests.xctest */,
+				5B1EAE682B39C09100EDA0A8 /* JoannaHearingAidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1EAE502B39C09000EDA0A8 /* JoannaHearingAid */ = {
+			isa = PBXGroup;
+			children = (
+				5B1EAE512B39C09000EDA0A8 /* JoannaHearingAidApp.swift */,
+				5B1EAE532B39C09000EDA0A8 /* ContentView.swift */,
+				5B1EAE552B39C09100EDA0A8 /* Assets.xcassets */,
+				5B1EAE572B39C09100EDA0A8 /* Preview Content */,
+			);
+			path = JoannaHearingAid;
+			sourceTree = "<group>";
+		};
+		5B1EAE572B39C09100EDA0A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B1EAE582B39C09100EDA0A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B1EAE612B39C09100EDA0A8 /* JoannaHearingAidTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B1EAE622B39C09100EDA0A8 /* JoannaHearingAidTests.swift */,
+			);
+			path = JoannaHearingAidTests;
+			sourceTree = "<group>";
+		};
+		5B1EAE6B2B39C09100EDA0A8 /* JoannaHearingAidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B1EAE6C2B39C09100EDA0A8 /* JoannaHearingAidUITests.swift */,
+				5B1EAE6E2B39C09100EDA0A8 /* JoannaHearingAidUITestsLaunchTests.swift */,
+			);
+			path = JoannaHearingAidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1EAE4D2B39C09000EDA0A8 /* JoannaHearingAid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1EAE722B39C09100EDA0A8 /* Build configuration list for PBXNativeTarget "JoannaHearingAid" */;
+			buildPhases = (
+				5B1EAE4A2B39C09000EDA0A8 /* Sources */,
+				5B1EAE4B2B39C09000EDA0A8 /* Frameworks */,
+				5B1EAE4C2B39C09000EDA0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoannaHearingAid;
+			productName = JoannaHearingAid;
+			productReference = 5B1EAE4E2B39C09000EDA0A8 /* JoannaHearingAid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B1EAE5D2B39C09100EDA0A8 /* JoannaHearingAidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1EAE752B39C09100EDA0A8 /* Build configuration list for PBXNativeTarget "JoannaHearingAidTests" */;
+			buildPhases = (
+				5B1EAE5A2B39C09100EDA0A8 /* Sources */,
+				5B1EAE5B2B39C09100EDA0A8 /* Frameworks */,
+				5B1EAE5C2B39C09100EDA0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B1EAE602B39C09100EDA0A8 /* PBXTargetDependency */,
+			);
+			name = JoannaHearingAidTests;
+			productName = JoannaHearingAidTests;
+			productReference = 5B1EAE5E2B39C09100EDA0A8 /* JoannaHearingAidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B1EAE672B39C09100EDA0A8 /* JoannaHearingAidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1EAE782B39C09100EDA0A8 /* Build configuration list for PBXNativeTarget "JoannaHearingAidUITests" */;
+			buildPhases = (
+				5B1EAE642B39C09100EDA0A8 /* Sources */,
+				5B1EAE652B39C09100EDA0A8 /* Frameworks */,
+				5B1EAE662B39C09100EDA0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B1EAE6A2B39C09100EDA0A8 /* PBXTargetDependency */,
+			);
+			name = JoannaHearingAidUITests;
+			productName = JoannaHearingAidUITests;
+			productReference = 5B1EAE682B39C09100EDA0A8 /* JoannaHearingAidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B1EAE462B39C09000EDA0A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					5B1EAE4D2B39C09000EDA0A8 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					5B1EAE5D2B39C09100EDA0A8 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 5B1EAE4D2B39C09000EDA0A8;
+					};
+					5B1EAE672B39C09100EDA0A8 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 5B1EAE4D2B39C09000EDA0A8;
+					};
+				};
+			};
+			buildConfigurationList = 5B1EAE492B39C09000EDA0A8 /* Build configuration list for PBXProject "JoannaHearingAid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B1EAE452B39C09000EDA0A8;
+			productRefGroup = 5B1EAE4F2B39C09000EDA0A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1EAE4D2B39C09000EDA0A8 /* JoannaHearingAid */,
+				5B1EAE5D2B39C09100EDA0A8 /* JoannaHearingAidTests */,
+				5B1EAE672B39C09100EDA0A8 /* JoannaHearingAidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1EAE4C2B39C09000EDA0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1EAE592B39C09100EDA0A8 /* Preview Assets.xcassets in Resources */,
+				5B1EAE562B39C09100EDA0A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1EAE5C2B39C09100EDA0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1EAE662B39C09100EDA0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B1EAE4A2B39C09000EDA0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1EAE542B39C09000EDA0A8 /* ContentView.swift in Sources */,
+				5B1EAE522B39C09000EDA0A8 /* JoannaHearingAidApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1EAE5A2B39C09100EDA0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1EAE632B39C09100EDA0A8 /* JoannaHearingAidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1EAE642B39C09100EDA0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1EAE6D2B39C09100EDA0A8 /* JoannaHearingAidUITests.swift in Sources */,
+				5B1EAE6F2B39C09100EDA0A8 /* JoannaHearingAidUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B1EAE602B39C09100EDA0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1EAE4D2B39C09000EDA0A8 /* JoannaHearingAid */;
+			targetProxy = 5B1EAE5F2B39C09100EDA0A8 /* PBXContainerItemProxy */;
+		};
+		5B1EAE6A2B39C09100EDA0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1EAE4D2B39C09000EDA0A8 /* JoannaHearingAid */;
+			targetProxy = 5B1EAE692B39C09100EDA0A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B1EAE702B39C09100EDA0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B1EAE712B39C09100EDA0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B1EAE732B39C09100EDA0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoannaHearingAid/Preview Content\"";
+				DEVELOPMENT_TEAM = 22TLJ99F52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = celesteroselli.JoannaHearingAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B1EAE742B39C09100EDA0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoannaHearingAid/Preview Content\"";
+				DEVELOPMENT_TEAM = 22TLJ99F52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = celesteroselli.JoannaHearingAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B1EAE762B39C09100EDA0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22TLJ99F52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = celesteroselli.JoannaHearingAidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoannaHearingAid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JoannaHearingAid";
+			};
+			name = Debug;
+		};
+		5B1EAE772B39C09100EDA0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22TLJ99F52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = celesteroselli.JoannaHearingAidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoannaHearingAid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JoannaHearingAid";
+			};
+			name = Release;
+		};
+		5B1EAE792B39C09100EDA0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22TLJ99F52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = celesteroselli.JoannaHearingAidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JoannaHearingAid;
+			};
+			name = Debug;
+		};
+		5B1EAE7A2B39C09100EDA0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22TLJ99F52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = celesteroselli.JoannaHearingAidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JoannaHearingAid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B1EAE492B39C09000EDA0A8 /* Build configuration list for PBXProject "JoannaHearingAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1EAE702B39C09100EDA0A8 /* Debug */,
+				5B1EAE712B39C09100EDA0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1EAE722B39C09100EDA0A8 /* Build configuration list for PBXNativeTarget "JoannaHearingAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1EAE732B39C09100EDA0A8 /* Debug */,
+				5B1EAE742B39C09100EDA0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1EAE752B39C09100EDA0A8 /* Build configuration list for PBXNativeTarget "JoannaHearingAidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1EAE762B39C09100EDA0A8 /* Debug */,
+				5B1EAE772B39C09100EDA0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1EAE782B39C09100EDA0A8 /* Build configuration list for PBXNativeTarget "JoannaHearingAidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1EAE792B39C09100EDA0A8 /* Debug */,
+				5B1EAE7A2B39C09100EDA0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B1EAE462B39C09000EDA0A8 /* Project object */;
+}
